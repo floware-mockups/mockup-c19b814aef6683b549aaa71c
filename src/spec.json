@@ -1,0 +1,183 @@
+{
+  "title": "Gestione pratiche dello sportello",
+  "description": "Prototipo per consultare e aggiornare pratiche inventate, monitorando stato e scadenze.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Riepilogo delle pratiche e delle scadenze imminenti.",
+      "metrics": [
+        {
+          "label": "Pratiche totali",
+          "value": "6"
+        },
+        {
+          "label": "In lavorazione",
+          "value": "3"
+        },
+        {
+          "label": "In attesa",
+          "value": "1"
+        },
+        {
+          "label": "Completate",
+          "value": "2"
+        },
+        {
+          "label": "Scadenze entro 7 giorni",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Numero pratica",
+        "Richiedente",
+        "Servizio",
+        "Stato",
+        "Scadenza"
+      ],
+      "rows": [
+        [
+          "SP-26041",
+          "Lumo",
+          "Cambio di residenza",
+          "In lavorazione",
+          "18/04/2026"
+        ],
+        [
+          "SP-26042",
+          "Vela",
+          "Certificato di iscrizione",
+          "In attesa",
+          "20/04/2026"
+        ],
+        [
+          "SP-26043",
+          "Nubi",
+          "Occupazione suolo",
+          "Da avviare",
+          "24/04/2026"
+        ],
+        [
+          "SP-26044",
+          "Zefiro",
+          "Autorizzazione temporanea",
+          "Completata",
+          "15/04/2026"
+        ],
+        [
+          "SP-26045",
+          "Rugiada",
+          "Accesso agli atti",
+          "In lavorazione",
+          "27/04/2026"
+        ],
+        [
+          "SP-26046",
+          "Prisma",
+          "Certificato di residenza",
+          "Completata",
+          "12/04/2026"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "elenco-pratiche",
+      "title": "Elenco pratiche",
+      "description": "Tabella filtrabile delle pratiche, con stato e data di scadenza.",
+      "metrics": [
+        {
+          "label": "Risultati",
+          "value": "6"
+        },
+        {
+          "label": "In scadenza entro 7 giorni",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Numero pratica",
+        "Richiedente",
+        "Servizio",
+        "Stato",
+        "Data di apertura",
+        "Scadenza"
+      ],
+      "rows": [
+        [
+          "SP-26041",
+          "Lumo",
+          "Cambio di residenza",
+          "In lavorazione",
+          "03/04/2026",
+          "18/04/2026"
+        ],
+        [
+          "SP-26042",
+          "Vela",
+          "Certificato di iscrizione",
+          "In attesa",
+          "04/04/2026",
+          "20/04/2026"
+        ],
+        [
+          "SP-26043",
+          "Nubi",
+          "Occupazione suolo",
+          "Da avviare",
+          "07/04/2026",
+          "24/04/2026"
+        ],
+        [
+          "SP-26044",
+          "Zefiro",
+          "Autorizzazione temporanea",
+          "Completata",
+          "01/04/2026",
+          "15/04/2026"
+        ],
+        [
+          "SP-26045",
+          "Rugiada",
+          "Accesso agli atti",
+          "In lavorazione",
+          "08/04/2026",
+          "27/04/2026"
+        ],
+        [
+          "SP-26046",
+          "Prisma",
+          "Certificato di residenza",
+          "Completata",
+          "29/03/2026",
+          "12/04/2026"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuova-pratica",
+      "title": "Nuova pratica",
+      "description": "Inserisci i dati essenziali per registrare una pratica inventata.",
+      "metrics": [],
+      "columns": [
+        "Numero pratica",
+        "Richiedente",
+        "Servizio",
+        "Stato",
+        "Data di apertura",
+        "Scadenza"
+      ],
+      "rows": [],
+      "form": [
+        "Numero pratica",
+        "Richiedente",
+        "Servizio",
+        "Stato",
+        "Data di apertura",
+        "Scadenza"
+      ]
+    }
+  ]
+}
